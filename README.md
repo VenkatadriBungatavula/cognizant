@@ -7,6 +7,7 @@ Method: POST
 
 Design used:
 ==============
+Uses Java 8
 Maintain layered structure as below
 Controller -- RaboStatementProcessController: to hadle the requrests and map to methods
 Util -- ValidationUtil: to validate the transaction statement 
@@ -14,3 +15,5 @@ Util -- ValidationUtil: to validate the transaction statement
                           2. Method to validate End Balance in transactions
 Model -- ErrorRecord, Request, ResponseStatus, Transaction: model classes
 Exception -- Gloabal exception handling
+
+Provided Unit test cases, Integration testing, logging
